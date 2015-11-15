@@ -22,7 +22,7 @@
         color: #660033;
       }
 
-      h2.text {
+      h2.color.text {
         color: black;
       }
       
@@ -30,7 +30,7 @@
         color: #000;
       }
       nav a:visited {
-        color: #cc3399;
+        color: #ff0000;
       }
 
       img {
@@ -39,20 +39,26 @@
       a {
         color: #333399;
       }
-      table, th, td {
+      tr, td {
         border: 1px solid black;
+        padding: 15px;
+        vertical-align: center;
+        height: 50px;
       }
       table {
+        border-collapse: collapse;
         margin-left: 1%;
         margin-right: 75%;
         border-spacing: 5px;
         background-color: #bbb;
       }
 
-      th, td {
-        padding: 15px;
-        vertical-align: center;
-        height: 50px;
+      div {
+        background-color: blue;
+        width: 300px;
+        padding: 25px;
+        border: 25px #000;
+        margin: 25px; 
       }
 
       article {
@@ -65,7 +71,7 @@
   
       <h1><a href="https://www.bootstrapcdn.com/">Bootstrap CDN</a></h1>
       <div>
-      <h2 class="text">Sprint-1 Deliverable</h2>
+      <h2 class="color.text">Sprint-1 Deliverable</h2>
       </div>
         <nav>
           <ul id="hyperlinklist">
@@ -102,7 +108,7 @@
       <article>
         <h1>Tables of Information</h1>
         <h2>What to love about cats</h2>
-        <table style="width:50%">
+        <table style="width:50%" cellpadding="10" cellspacing="10">
           <tr>
             <td>1</td>
             <td>Soft and Furry</td>
@@ -118,7 +124,7 @@
         </table>
       
         <h2>Why cats tolerate us</h2>
-        <table style="width:50%">
+        <table style="width:50%" cellpadding="10" cellspacing="10">
           <tr>
             <td>1</td>
             <td>We feed them</td>
